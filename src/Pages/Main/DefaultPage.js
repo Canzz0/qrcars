@@ -9,71 +9,72 @@ import img7 from '../../assets/img/img7.svg'
 const DefaultPage = () => {
               return (
                             <div className='mb-6'>
-                                     <div className="container mt-4">
-                                          <div className="content-1 mb-3">
-                                                        <div className='row col-12'>
-                                                                      <h2>
-                                                                                    Merhaba,
-                                                                                    <img src={img2} />
-                                                                      </h2>
-                                                                      <span className='text'>QR CARS’a hoş geldin!</span>
-
-                                                        </div>
-
-                                          </div>
-                                          <div className='card p-3 content-2 mb-3'>
-                                                        <div className='row'>
-                                                                      <div className='col-8'>
-                                                                                    <img src={img3} /> <span className='text'><strong>Profil Durum Bilgisi</strong></span><br />
-                                                                                    <span className='text text-danger'>Marketteyim acilse arayabilirsiniz.</span>
-
-                                                                      </div>
-                                                                      <div className='col-4'>
-                                                                                    <img src={img1} width={100} />
-                                                                      </div>
-                                                        </div>
-                                          </div>
-                                          <div className='card p-3 content-3 mb-3'>
-                                                        <div className='row'>
-                                                                      <div className='col-9  mb-5 '>
-                                                                                    <img src={img5} /> <span className='text'><strong>Sabit Telefon</strong></span><br />
-                                                                                    <span className='text2 text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
-
-                                                                      </div>
-                                                                      <div className='col-3 mb-5  justify-content-center text-end'>
-                                                                                    <img src={img7} />
-                                                                      </div>
-                                                        </div>
-                                          </div>
-                                          <div className='card p-3 content-4 mb-5'>
-                                                        <div className='row'>
-                                                                      <div className='col-11'>
-                                                                                    <span className='text-danger'><strong>Hukuki Bildirim</strong></span><br />
-                                                                                    <span className='text2 text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
+                                          <div className="container mt-4">
+                                                        <div className="content-1 p-3 mb-3">
+                                                                      <div className='row col-12'>
+                                                                                    <h2>
+                                                                                                  Merhaba,
+                                                                                                  <img src={img2} />
+                                                                                    </h2>
+                                                                                    <span className='text'>QR CARS’a hoş geldin!</span>
 
                                                                       </div>
 
                                                         </div>
+                                                        <div className='card p-3 content-2 mb-3'>
+                                                                      <div className='row'>
+                                                                                    <div className='col-8 mb-1'>
+                                                                                                  <img src={img3} /> <span className='text'><strong>Profil Durum Bilgisi</strong></span><br />
+                                                                                                  <span className='text text-danger'>Marketteyim acilse arayabilirsiniz.</span>
+
+                                                                                    </div>
+                                                                                    <div className='col-4 mb-1'>
+                                                                                                  <img src={img1} width={100} />
+                                                                                    </div>
+                                                                      </div>
+                                                        </div>
+                                                        <div className='card p-3 content-3 mb-3'>
+                                                                      <div className='row'>
+                                                                                    <div className='col-9 mb-1'>
+                                                                                                  <img src={img5}  className=''/>
+                                                                                                  <span className='text m-1'><strong>Sabit Telefon</strong></span><br />
+                                                                                                  <span className='text2  text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
+                                                                                    </div>
+                                                                                    <div className='col-3 mb-1 d-flex justify-content-center'>
+                                                                                                  <img src={img7} width={25} />
+                                                                                    </div>
+                                                                      </div>
+                                                        </div>
+
+                                                        <div className='card p-3 content-4 mb-5'>
+                                                                      <div className='row'>
+                                                                                    <div className='col-11'>
+                                                                                                  <span className='text-danger'><strong>Hukuki Bildirim</strong></span><br />
+                                                                                                  <span className='text2 text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
+
+                                                                                    </div>
+
+                                                                      </div>
+                                                        </div>
                                           </div>
-                            </div>
                                           <footer className='footer mt-5'>
-        <div className='row'>
-          <div className='col-12 row'>
-            <div className='col-6 d-flex align-items-center'>
-              <img src={img6} alt="Logo" />
-              <div className='row '>
-                <span style={{marginLeft:'5px'}} className='text ml-2'><strong>Arama Başlat</strong></span>
-                <span style={{marginLeft:'5px'}} className='text text-muted ml-2'><strong>QR CARS</strong></span>
-              </div>
-            </div>
-            <div className='col-6 justify-content-center text-center'>
-              <img src={img4} alt="Logo" />
-            </div>
-          </div>
-        </div>
-      </footer>
+                                                        <div className='row'>
+                                                                      <div className='col-12 row'>
+                                                                                    <div className='col-6 d-flex align-items-center'>
+                                                                                                  <img src={img6} alt="Logo" />
+                                                                                                  <div className='row '>
+                                                                                                                <span style={{ marginLeft: '5px' }} className='text ml-2'><strong>Arama Başlat</strong></span>
+                                                                                                                <span style={{ marginLeft: '5px' }} className='text text-muted ml-2'><strong>QR CARS</strong></span>
+                                                                                                  </div>
+                                                                                    </div>
+                                                                                    <div className='col-6 justify-content-center text-center'>
+                                                                                                  <img src={img4} alt="Logo" />
+                                                                                    </div>
+                                                                      </div>
+                                                        </div>
+                                          </footer>
                             </div>
-                   
+
               )
 }
 
