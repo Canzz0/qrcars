@@ -24,8 +24,10 @@ const DefaultPage = () => {
                                                         <div className='card p-3 content-2 mb-3'>
                                                                       <div className='row'>
                                                                                     <div className='col-8 mb-1'>
-                                                                                                  <img src={img3} /> <span className='text'><strong>Profil Durum Bilgisi</strong></span><br />
-                                                                                                  <span className='text text-danger'>Marketteyim acilse arayabilirsiniz.</span>
+                                                                                                  <div className='card-title'>
+                                                                                                  <img src={img3} /> <span className='text '><strong>Profil Durum Bilgisi</strong></span><br />
+                                                                                                  </div>
+                                                                                                  <span className='text text-danger mt-2'>Marketteyim acilse arayabilirsiniz.</span>
 
                                                                                     </div>
                                                                                     <div className='col-4 mb-1'>
@@ -36,8 +38,11 @@ const DefaultPage = () => {
                                                         <div className='card p-3 content-3 mb-3'>
                                                                       <div className='row'>
                                                                                     <div className='col-9 mb-1'>
-                                                                                                  <img src={img5}  className=''/>
+                                                                                                  <div className='card-title'>
+                                                                                                  <img src={img5}  />
                                                                                                   <span className='text m-1'><strong>Sabit Telefon</strong></span><br />
+                                                                                                  </div>
+                                                                                                  
                                                                                                   <span className='text2  text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
                                                                                     </div>
                                                                                     <div className='col-3 mb-1 d-flex justify-content-center'>
@@ -49,7 +54,9 @@ const DefaultPage = () => {
                                                         <div className='card p-3 content-4 mb-5'>
                                                                       <div className='row'>
                                                                                     <div className='col-11'>
+                                                                                                  <div className='card-title'>
                                                                                                   <span className='text-danger'><strong>Hukuki Bildirim</strong></span><br />
+                                                                                                  </div>
                                                                                                   <span className='text2 text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
 
                                                                                     </div>
