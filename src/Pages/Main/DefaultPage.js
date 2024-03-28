@@ -6,6 +6,7 @@ import img4 from '../../assets/img/img4.svg'
 import img5 from '../../assets/img/img5.svg'
 import img6 from '../../assets/img/img6.svg'
 import img7 from '../../assets/img/img7.svg'
+import img8 from '../../assets/img/img8.svg'
 const DefaultPage = () => {
               return (
                             <div className='mb-6'>
@@ -37,20 +38,34 @@ const DefaultPage = () => {
                                                         </div>
                                                         <div className='card p-3 content-3 mb-3'>
                                                                       <div className='row'>
-                                                                                    <div className='col-9 mb-1'>
+                                                                                    <div className='col-10 mb-1'>
                                                                                                   <div className='card-title'>
-                                                                                                  <img src={img5}  />
+                                                                                                  <img src={img5} />
                                                                                                   <span className='text m-1'><strong>Sabit Telefon</strong></span><br />
                                                                                                   </div>
                                                                                                   
                                                                                                   <span className='text2  text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
                                                                                     </div>
-                                                                                    <div className='col-3 mb-1 d-flex justify-content-center'>
+                                                                                    <div className='col-2 mb-1 d-flex justify-content-end text-center'>
                                                                                                   <img src={img7} width={25} />
                                                                                     </div>
                                                                       </div>
                                                         </div>
-
+                                                        <div className='card p-3 content-3 mb-3'>
+                                                                      <div className='row'>
+                                                                                    <div className='col-10 mb-1'>
+                                                                                                  <div className='card-title'>
+                                                                                                  <img src={img8} />
+                                                                                                  <span className='text m-1'><strong>İnternet Bağlantı Araması</strong></span><br />
+                                                                                                  </div>
+                                                                                                  
+                                                                                                  <span className='text2  text-muted'>WhatsApp bağlantısı kullanarak araç sahibine kolayca ulaşabilirsiniz.</span>
+                                                                                    </div>
+                                                                                    <div className='col-2 mb-1 d-flex justify-content-end text-center'>
+                                                                                                  <img src={img7} width={25} />
+                                                                                    </div>
+                                                                      </div>
+                                                        </div>
                                                         <div className='card p-3 content-4 mb-5'>
                                                                       <div className='row'>
                                                                                     <div className='col-11'>
@@ -63,6 +78,7 @@ const DefaultPage = () => {
 
                                                                       </div>
                                                         </div>
+                                                       
                                           </div>
                                           <footer className='footer mt-5'>
                                                         <div className='row'>
