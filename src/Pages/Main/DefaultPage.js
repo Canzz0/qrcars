@@ -1,14 +1,14 @@
 import React from 'react'
-import img3 from '../../assets/img/img3.svg'
 import img1 from '../../assets/img/img1.svg'
 import img2 from '../../assets/img/img2.svg'
+import img3 from '../../assets/img/img3.svg'
 import img4 from '../../assets/img/img4.svg'
-import img6 from '../../assets/img/img6.svg'
 import img5 from '../../assets/img/img5.svg'
+import img6 from '../../assets/img/img6.svg'
 import img7 from '../../assets/img/img7.svg'
 const DefaultPage = () => {
               return (
-                            <>
+                            <div className='mb-6'>
                                      <div className="container mt-4">
                                           <div className="content-1 mb-3">
                                                         <div className='row col-12'>
@@ -21,15 +21,15 @@ const DefaultPage = () => {
                                                         </div>
 
                                           </div>
-                                          <div className='card p-2 content-2 mb-3'>
+                                          <div className='card p-3 content-2 mb-3'>
                                                         <div className='row'>
-                                                                      <div className='col-7'>
+                                                                      <div className='col-8'>
                                                                                     <img src={img3} /> <span className='text'><strong>Profil Durum Bilgisi</strong></span><br />
                                                                                     <span className='text text-danger'>Marketteyim acilse arayabilirsiniz.</span>
 
                                                                       </div>
-                                                                      <div className='col-5'>
-                                                                                    <img src={img1} />
+                                                                      <div className='col-4'>
+                                                                                    <img src={img1} width={100} />
                                                                       </div>
                                                         </div>
                                           </div>
@@ -40,7 +40,7 @@ const DefaultPage = () => {
                                                                                     <span className='text2 text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
 
                                                                       </div>
-                                                                      <div className='col-3 mb-5 text-end'>
+                                                                      <div className='col-3 mb-5  justify-content-center text-end'>
                                                                                     <img src={img7} />
                                                                       </div>
                                                         </div>
@@ -72,7 +72,7 @@ const DefaultPage = () => {
           </div>
         </div>
       </footer>
-                            </>
+                            </div>
                    
               )
 }
