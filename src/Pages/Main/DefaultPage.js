@@ -8,7 +8,8 @@ import img5 from '../../assets/img/img5.svg'
 import img7 from '../../assets/img/img7.svg'
 const DefaultPage = () => {
               return (
-                            <div className="container mt-4">
+                            <>
+                                     <div className="container mt-4">
                                           <div className="content-1 mb-3">
                                                         <div className='row col-12'>
                                                                       <h2>
@@ -20,7 +21,7 @@ const DefaultPage = () => {
                                                         </div>
 
                                           </div>
-                                          <div className='card p-3 content-2 mb-3'>
+                                          <div className='card p-2 content-2 mb-3'>
                                                         <div className='row'>
                                                                       <div className='col-7'>
                                                                                     <img src={img3} /> <span className='text'><strong>Profil Durum Bilgisi</strong></span><br />
@@ -34,12 +35,12 @@ const DefaultPage = () => {
                                           </div>
                                           <div className='card p-3 content-3 mb-3'>
                                                         <div className='row'>
-                                                                      <div className='col-9'>
+                                                                      <div className='col-9  mb-5 '>
                                                                                     <img src={img5} /> <span className='text'><strong>Sabit Telefon</strong></span><br />
-                                                                                    <span className='text text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
+                                                                                    <span className='text2 text-muted'>QRcars uygulamamızı kullanarak araç sahibine kolayca ulaşabilirsiniz!</span>
 
                                                                       </div>
-                                                                      <div className='col-3'>
+                                                                      <div className='col-3 mb-5 text-end'>
                                                                                     <img src={img7} />
                                                                       </div>
                                                         </div>
@@ -48,12 +49,13 @@ const DefaultPage = () => {
                                                         <div className='row'>
                                                                       <div className='col-11'>
                                                                                     <span className='text-danger'><strong>Hukuki Bildirim</strong></span><br />
-                                                                                    <span className='text text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
+                                                                                    <span className='text2 text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
 
                                                                       </div>
 
                                                         </div>
                                           </div>
+                            </div>
                                           <footer className='footer mt-5'>
         <div className='row'>
           <div className='col-12 row'>
@@ -70,7 +72,8 @@ const DefaultPage = () => {
           </div>
         </div>
       </footer>
-                            </div>
+                            </>
+                   
               )
 }
 
