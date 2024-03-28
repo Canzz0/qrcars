@@ -71,7 +71,7 @@ const DefaultPage = () => {
                                                                                     <div className='col-11'>
                                                                                                   <div className='card-title'>
                                                                                                   <span className='text-danger'><strong>Hukuki Bildirim</strong></span><br />
-                                                                                                  </div>
+                                                                                                   </div>
                                                                                                   <span className='text2 text-muted'>Eğer araç sahibi arandığında rahatsız edildiğini belirtirse,tüm hukuksal haklar aranacaktır. Bu çerçevede, rahatsız edici davranışlardan kaçınmanız önemlidir.</span>
 
                                                                                     </div>
@@ -82,7 +82,7 @@ const DefaultPage = () => {
                                           </div>
                                           <footer className='footer mt-5'>
                                                         <div className='row'>
-                                                                      <div className='col-12 row'>
+                                                                      <div className='col-12 p-0 row'>
                                                                                     <div className='col-6 d-flex align-items-center'>
                                                                                                   <img src={img6} alt="Logo" />
                                                                                                   <div className='row '>
@@ -90,8 +90,8 @@ const DefaultPage = () => {
                                                                                                                 <span style={{ marginLeft: '5px' }} className='text text-muted ml-2'><strong>QR CARS</strong></span>
                                                                                                   </div>
                                                                                     </div>
-                                                                                    <div className='col-6 justify-content-center text-center'>
-                                                                                                  <img src={img4} alt="Logo" />
+                                                                                    <div className='col-6 d-flex  justify-content-end text-end'>
+                                                                                                  <img src={img4} width={125} alt="Logo" />
                                                                                     </div>
                                                                       </div>
                                                         </div>
