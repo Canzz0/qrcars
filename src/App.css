@@ -1,10 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
 html{
   overflow-y:scroll ;
 
 }
 body{
   overflow-y:scroll ;
-  font-family: 'Open Sans';
+  font-family: 'SF Pro Display', sans-serif;
 }
 .root{
   overflow-y: scroll;
